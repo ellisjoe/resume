@@ -24,10 +24,12 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
-\name{John Smith} % Your name
-\address{123 Broadway \\ City, State 12345} % Your address
-\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(000)~$\cdot$~111~$\cdot$~1111 \\ john@smith.com} % Your phone number and email
+\name{Joseph Ellis} % Your name
+%\address{5526 South Everett Ave} % Your address
+%\address{Chicago, IL 60637} % Your address
+\address{ellis125@gmail.com} % Your phone number and email
+\address{www.ellisjoe.com}
+\address{(815) 388-2890}
 
 \begin{document}
 
@@ -37,12 +39,17 @@
 
 \begin{rSection}{Education}
 
-{\bf University of California, Berkeley} \hfill {\em June 2004} \\ 
-B.S. in Computer Science \& Engineering \\
-Minor in Linguistics \smallskip \\
-Member of Eta Kappa Nu \\
-Member of Upsilon Pi Epsilon \\
-Overall GPA: 5.678
+{\bf University of Chicago} \hfill {\em June 2015} \\ 
+B.S. and M.S. in Computer Science \\
+Member of the Varsity Wrestling Team \\
+
+\vspace{-1em}
+
+\begin{rSubsection}{Master's Research Project}{June 2014 - June 2015}{UCARE Research Team}{Chicago, IL}
+\item Researched Hadoop's ability to handle degraded networks while using erasure encoded storage.
+\item Proposed a new method of handling degraded networks when using erasure encoded storage.
+\item Created analytic models and ran test workloads on Hadoop to analyze performance.
+\end{rSubsection}
 
 \end{rSection}
 
@@ -52,60 +59,54 @@ Overall GPA: 5.678
 
 \begin{rSection}{Experience}
 
-\begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-\item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-\item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-\item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-\item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-\item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
+\begin{rSubsection}{Palantir Technologies}{June 2015 - Present}{Software Engineer}{Palo Alto, CA}
+\item Work with the distributed computation and data integration teams.
+\item Design and implement new features allowing for the analysis of petabytes of data.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-\item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-\item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-\item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-\item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-\item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
+\begin{rSubsection}{Palantir Technologies}{June 2014 - September 2014}{Software Engineer Intern}{Palo Alto, CA}
+\item Added the ability to export data from the distributed compute engine to databases such as Elasticsearch.
+\item Designed and built a web application that allows users to remotely configure their servers.
+\item Worked with team members to design and build deployment management software.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-\item Maecenas convallis ullamcorper ultricies stylesheets.
-\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
+\begin{rSubsection}{Palantir Technologies}{June 2013 - September 2013}{Infrastructure Quality Engineer Intern}{Palo Alto, CA}
+\item Automate existing tests and contribute new functionality to the automation framework
+\item Design and execute tests related to functionality and scalability.
+\item Debug software and server issues.
+\item Find and file defects and verify fixed deficiencies.
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{University of Chicago}{June 2012 - June 2014}{Teaching Assistant}{Chicago, IL}
+\item Built a system allowing student work to be analyzed for plagiarism.
+\item Graded student coursework.
+\item Helped students during weekly lab exercises.
+\item Answered questions using an online forum.
 \end{rSubsection}
 
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Strengths}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-Protocols \& APIs & XML, JSON, SOAP, REST \\
-Databases & MySQL, PostgreSQL, Microsoft SQL \\
-Tools & SVN, Vim, Emacs
-\end{tabular}
 
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	EXAMPLE SECTION
+%	TECHNICAL INTERESTS
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Section Name}
+\begin{rSection}{Technical Skills and Interests}
 
-%Section content\ldots
+\begin{list}{$\cdot$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+\itemsep -0.5em % \vspace{-0.5em} % Compress items in list together for aesthetics
+\item Proficient in Java, C, C++, Python, SQL, and Bash.
+\item Experience with web development including Javascript, HTML, and CSS.
+\item Experience with systems including Hadoop, Spark, PostgreSQL, MySQL, and Elasticsearch.
+\item Interested in the design and implementation of distributed systems.
+\end{list}
 
-%\end{rSection}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 
